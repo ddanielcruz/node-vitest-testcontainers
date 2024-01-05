@@ -1,0 +1,22 @@
+{
+  "name": "node-prisma-testcontainers",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsx --env-file=.env src/program.ts",
+    "prisma:studio": "prisma studio",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.7.1"
+  },
+  "devDependencies": {
+    "@testcontainers/postgresql": "^10.4.0",
+    "@tsconfig/node20": "^20.1.2",
+    "@types/node": "^20.10.6",
+    "prisma": "^5.7.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.3"
+  }
+}
